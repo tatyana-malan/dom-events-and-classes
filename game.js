@@ -23,7 +23,7 @@ function makeGreen (evt) {
 }
 
 // CREATE FUNCTION makeBlue HERE
-function makeBlue (evt) 
+function makeBlue (evt) {
   evt.target.classList.toggle('blue')
   updateCounts()
 }
